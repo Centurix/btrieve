@@ -3,8 +3,19 @@ BTrieve Driver
 
 This project presents a pure Python implementation of the BTrieve database
 driver. Due to there not being a great deal of information about this
-database format, this is mostly an exercise in reverse engineering binary
+database format, this is mostly an exercise in reverse engineering the binary
 grammar.
+
+
+Current State
+=============
+
+This is in the very early stages of development. There is a test.py file
+that shows the current usage of the tools. This will be made into a more
+comprehensive toolset. It will be available as:
+
+* Pypi module install
+* Standalone tools with binaries for Linux and Windows
 
 
 The Current List of Work
