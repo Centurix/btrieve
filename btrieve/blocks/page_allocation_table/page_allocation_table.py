@@ -1,0 +1,2 @@
+class PageAllocationTable:
+    pass
