@@ -65,3 +65,19 @@ some technical work during the Novell years and actually managed to contribute
 code to Novell's source code (some Novell network related code and also MU/CCPM 
 process management code). This gave me some insight and contacts in the BTrieve
 world.
+
+SQLAlchemy
+==========
+
+URI Example: btrieve:///database_path
+
+Like:
+
+from sqlalchemy import create_engine
+engine = create_engine("btrieve:///database_path")
+
+or
+
+engine = create_engine("btrieve:///database_path/field.ddf")
+
+In case the field.ddf/file.ddf is called something different

@@ -100,6 +100,10 @@ def get_indexes(folder):
 def main():
     click.echo(f"Extracting from {DB_FOLDER}...")
 
+    # The following shows fields being accessed first, but
+    # we could use tables first if we assume the field format
+    # in the table files comply strictly to the database versions
+    # we detect.
     fields = get_fields(DB_FOLDER)
     tables = get_tables(DB_FOLDER)
     indexes = get_indexes(DB_FOLDER)
